@@ -2,7 +2,9 @@
   "name": "api-practica2",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "api-testing": "npx playwright test --project=chromium"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
